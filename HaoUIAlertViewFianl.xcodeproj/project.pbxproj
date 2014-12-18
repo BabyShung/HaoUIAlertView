@@ -14,6 +14,7 @@
 		E63039F61A43577100A008D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63039F51A43577100A008D7 /* Images.xcassets */; };
 		E63039F91A43577100A008D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63039F71A43577100A008D7 /* LaunchScreen.xib */; };
 		E6303A051A43577100A008D7 /* HaoUIAlertViewFianlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6303A041A43577100A008D7 /* HaoUIAlertViewFianlTests.m */; };
+		E6303A101A4357D200A008D7 /* ADCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6303A0F1A4357D200A008D7 /* ADCAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E63039FE1A43577100A008D7 /* HaoUIAlertViewFianlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaoUIAlertViewFianlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6303A031A43577100A008D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6303A041A43577100A008D7 /* HaoUIAlertViewFianlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaoUIAlertViewFianlTests.m; sourceTree = "<group>"; };
+		E6303A0E1A4357D200A008D7 /* ADCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCAlertView.h; sourceTree = "<group>"; };
+		E6303A0F1A4357D200A008D7 /* ADCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		E63039E71A43577100A008D7 /* HaoUIAlertViewFianl */ = {
 			isa = PBXGroup;
 			children = (
+				E6303A0E1A4357D200A008D7 /* ADCAlertView.h */,
+				E6303A0F1A4357D200A008D7 /* ADCAlertView.m */,
 				E63039EC1A43577100A008D7 /* AppDelegate.h */,
 				E63039ED1A43577100A008D7 /* AppDelegate.m */,
 				E63039EF1A43577100A008D7 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				E63039F11A43577100A008D7 /* ViewController.m in Sources */,
 				E63039EE1A43577100A008D7 /* AppDelegate.m in Sources */,
 				E63039EB1A43577100A008D7 /* main.m in Sources */,
+				E6303A101A4357D200A008D7 /* ADCAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "ADCAlertView.h"
+
+
 
 @interface ViewController ()
 
@@ -16,12 +19,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)showAlertView:(id)sender {
+    
+    ADCAlertView *al = [[ADCAlertView alloc] initWithTitle:@"aaaaaccccccccccccccvvvvvva" message:@"asdfasdfwedqwdqwdqdqwdqwdczxdqwdqwdczxdqwdqwdczxwdczxcasdqwdqwdqweqweqwezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" cancelButtonTitle:@"OK"];
+    [al show];
+    
 }
 
+- (IBAction)traditional:(id)sender {
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"aaaaaccccccccccccccvvvvvva" message:@"asdfasdfwedqwdqwdqdqwdqwdczxdqwdqwdczxdqwdqwdczxwdczxcasdqwdqwdqweqweqwezzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+    [alertView show];
+    
+    
+}
 @end
